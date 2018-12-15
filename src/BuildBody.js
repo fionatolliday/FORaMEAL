@@ -8,7 +8,7 @@ const BuildBody = () => {
         <div className='container'>
 
             <span className='driving-force'>
-                <p>Last year alone, <strong> 4,987 people </strong> were killed and <strong> 34.5 million </strong> were affected by floods, storms and extreme temperatures. </p>
+                <p>Last year alone, <strong> 4,987 people </strong> were killed and <strong> 34.5 million </strong> were affected by floods, storms and extreme temperatures in the Asia Pacific region. </p>
                 
                 <p>The driving force behind the FORaMEAL project
                 is to provide food and develop strong networks in neighbouring countries so that we

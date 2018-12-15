@@ -9,9 +9,9 @@ const WhatWeDo = () => {
             <Navbar />
             <a href= '/WhatWeDo'></a>   
                 <div className='What-We-Do'>         
-                    <h3> The Asia Pacific region claims the title of being one of the most disaster prone areas in the world.</h3>
+                    {/* <h3> The Asia Pacific region claims the title of being one of the most disaster prone areas in the world.</h3> */}
 
-                    <p>Last year alone, <strong> 4,987 people </strong> were killed and <strong> 34.5 million </strong> were affected by floods, storms and extreme temperatures. </p>
+                    <p>Last year alone, <strong> 4,987 people </strong> were killed and <strong> 34.5 million </strong> were affected by floods, storms and extreme temperatures in the Asia Pacific region. </p>
                     <br></br>
 
                 

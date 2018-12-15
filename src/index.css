@@ -3,21 +3,21 @@ body {
   font-family: 'Raleway', sans-serif;
   margin: 0;
   padding: 0;
-  
+  height: 100vh;
 }
 
+ /* Holds the background image on the homepage */
 .container {
   background-image: url("./assets/hands-in.jpeg");
   background-size: 100%;
   background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+  align-items: center;
 }
 
-.driving-force {
-  background-color: red;
-  font: white;
-  margin: 50%;
-}
 
+/* Build body section for homepage */
 .What-We-Do h3 {
   width: 70%;
   margin: 2% auto;
@@ -26,6 +26,13 @@ body {
 .What-We-Do p {
 width: 70%;
 margin: 2% auto;
+}
+
+/* What we do page */
+.driving-force {
+  background-color: white;
+  font: white;
+  margin: 50%;
 }
 
 nav {
@@ -54,12 +61,14 @@ img {
 
 footer {
   background-color: black;
- 
+  align-items: center;
+  margin: 2px auto 0 auto;
 }
 
 footer img {
 height:5em;
 width: 15em;
+margin: 2px auto 0 auto;
 align-self: center;
 }
 
