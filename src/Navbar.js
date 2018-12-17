@@ -4,6 +4,7 @@ const Navbar = () => {
     return (
     <nav>
       <a href="./">HOME</a>
+      <a href="./NewsAndEvents">NEWS AND EVENTS</a>
       <a href="./WhatWeDo">WHAT WE DO</a>
       <a href="./ContactUs">CONTACT US</a>
     </nav>

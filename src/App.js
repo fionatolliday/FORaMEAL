@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Home from './Home';
 import WhatWeDo from './WhatWeDo';
+import NewsAndEvents from './NewsAndEvents';
 import ContactUs from './ContactUs';
 import ErrorPage from './ErrorPage';
 
@@ -16,6 +17,8 @@ class App extends Component {
       return <WhatWeDo />
     } else if (path == '/ContactUs') {
       return <ContactUs />
+    } else if (path == '/NewsAndEvents') {
+      return <NewsAndEvents />
     } else {
       return <ErrorPage />
     }

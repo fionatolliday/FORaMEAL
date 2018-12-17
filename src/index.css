@@ -40,6 +40,8 @@ nav {
   text-align: right;
   background-color: black;
   color: white;
+  height: 5vh;
+
 }
 
 nav a {
