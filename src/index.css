@@ -1,23 +1,37 @@
 body {
-  /* display: flex; */
+  display: flex;
   font-family: 'Raleway', sans-serif;
   margin: 0;
   padding: 0;
   height: 100vh;
+  color: #646464;
 }
 
  /* Holds the background image on the homepage */
 .container {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: center;
+  align-items: center;
   background-image: url("./assets/hands-in.jpeg");
-  background-size: 100%;
   background-repeat: no-repeat;
   height: 100vh;
-  color: white;
-  align-items: center;
+  background-size: cover;
+  /* color: black; */
+  background-color: aqua;  
+  background-attachment: scroll;
+  background-position: center;
 }
 
-
 /* Build body section for homepage */
+.driving-force {
+  background-color: white;
+  font: white;
+  margin: 20%;
+ 
+}
+
+/* What we do page */
 .What-We-Do h3 {
   width: 70%;
   margin: 2% auto;
@@ -28,19 +42,15 @@ width: 70%;
 margin: 2% auto;
 }
 
-/* What we do page */
-.driving-force {
-  background-color: white;
-  font: white;
-  margin: 50%;
-}
+
+
 
 nav {
   font-family: 'Raleway', sans-serif;
   text-align: right;
   background-color: black;
   color: white;
-  height: 5vh;
+  height: 100%;
 
 }
 
@@ -55,24 +65,27 @@ nav a:hover {
   font-size: 125%;
 }
 
-img {
-  width: 100%;
-}
-
-
-
 footer {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: center;
   background-color: black;
   align-items: center;
-  margin: 2px auto 0 auto;
+  grid-template-areas: 
+  ". image ."
+
 }
 
 footer img {
+grid-area: image;
 height:5em;
 width: 15em;
 margin: 2px auto 0 auto;
-align-self: center;
+/* align-self: center; */
+
+
 }
+
 
 
 

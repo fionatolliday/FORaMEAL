@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar'
 import Blog from './Blog'
+import Footer from './Footer'
 
 const NewsAndEvents = () => {
     const blogs = {
@@ -33,6 +34,7 @@ const NewsAndEvents = () => {
                     )
                 })
             }
+            <Footer />
         </div>
     )
 }
