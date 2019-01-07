@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Navbar from './Navbar'
 import Footer from './Footer'
 
@@ -9,7 +9,7 @@ const ContactUs = () => {
         <div>
             <Navbar />
             <a href= '/ContactUs'></a>            
-            <h4>Contact Us</h4>
+            <h1>Contact Us</h1>
             <NameForm />
             <Footer />
         </div>
@@ -31,7 +31,7 @@ class NameForm extends React.Component {
     }
   
     handleSubmit(event) {
-      alert('A name was submitted: ' + this.state.value);
+      alert('Email submitted: ' + this.state.value);
       event.preventDefault();
     }
   

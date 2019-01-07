@@ -1,23 +1,18 @@
-import React, { Component } from 'react';
+// import React from 'react';
+// import axios from 'axios';
 
-// class Blog extends Component {
-//     render() {
-//       return <h1> {this.props.title}</h1>;
-//     }
-//   }
+// const Blog = (props) => {
+//   console.log(props)
 
-const Blog = (props) => {
-  
-    return (
-      <a href={props.blog}>
-        <h1>{props.blog.title}</h1>
-        <p>{props.blog.image}</p>
-        <p>{props.blog.date}</p>
-        <p>{props.blog.text}</p>
-      </a>
-    ) 
-}
+//   return (
+//     <div>
+//       <h1>{props.blog.title}</h1>
+//       <p>{props.blog.image}</p>
+//       <p>{props.blog.date}</p>
+//       <p>{props.blog.text}</p>
+//     </div>
+//   ) 
+// }
 
 
-
-export default Blog;
+// export default Blog;

@@ -1,13 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from './assets/logo-rotarycanterbury.png'
 
 const Footer = () => {
     return (
-    <footer>
-        <a href="https://www.canterburyrotary.org">
-            <img src={logo} alt="Rotary logo" />
-        </a>
-    </footer>
+            <footer>
+                <a href="https://www.canterburyrotary.org">
+                    <img src={logo} alt="Rotary logo" />
+                </a>
+            </footer>
+
     )
 }
 
