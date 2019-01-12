@@ -16,13 +16,13 @@ const BuildBody = () => {
             </span> */}
 
             <div className='donate-button'>
-                <button><strong>DONATE</strong></button>
+                <button><strong>GET INVOLVED</strong></button>
                 {/* <button> <strong>DONATE</strong> <br></br> your time <br></br> for<br></br> disaster relief</button> */}
             </div>
 
-            <div className='donate-chaser'>
+            {/* <div className='donate-chaser'>
                 <div> your time <br></br> for<br></br> disaster relief</div>
-            </div>
+            </div> */}
 
         </div>
     )

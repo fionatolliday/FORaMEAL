@@ -11,11 +11,13 @@ const WhatWeDo = () => {
                 <div className='What-We-Do'>         
                     {/* <h3> The Asia Pacific region claims the title of being one of the most disaster prone areas in the world.</h3> */}
 
-                    <p>Last year alone, <strong> 4,987 people </strong> were killed and <strong> 34.5 million </strong> were affected by floods, storms and extreme temperatures in the Asia Pacific region. </p>
+                    <p>Canterbury Rotary Club is part of Rotary’s Global Network of 33,000 clubs in over 200 countries with 1.2 million members.   Australia has 1,100 clubs.
+                    
                     <br></br>
-
-                
-                    <p>These tragedies often lead to emergency relief being needed; however there is only so much help that people can give, especially in developing countries like the Philippines. Indigent citizens of the country are the ones that are most affected, especially in areas relating to proper nutrition.</p>
+                    Canterbury Rotary runs community and international projects.  One such project is the annual medical missions in the Philippines conducted for the last 22 years .
+                    <br></br>
+                    FORaMEAL is another key international project and its supply chain is run by volunteers with no additional administration costs.
+                    </p>
                 </div>
             <Footer />
         </div>

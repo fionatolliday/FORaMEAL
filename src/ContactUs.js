@@ -40,19 +40,32 @@ class NameForm extends React.Component {
         <form onSubmit={this.handleSubmit}>
           <label>
             Your name:
+            <br></br>
             <input type="text" value={this.state.value} onChange={this.handleChange} />
+            <br></br>
           </label>
         <br></br>
           <label>
             Your email:
+            <br></br>
             <input type="text" value={this.state.value} onChange={this.handleChange} />
+            <br></br>
           </label>
           <br></br>
+          <label>
+            Message:
+            <br></br>
+            <textarea value={this.state.value} onChange={this.handleChange} />
+            <br></br>
+          </label>
           <input type="submit" value="Submit" />
         </form>
       );
     }
   }
+
+
+  
 
 
 
