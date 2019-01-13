@@ -142,6 +142,63 @@ margin: 2px auto 0 auto;
 
 }
 
+form {
+display: block;
+text-align: center;
+font-size: 18px;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+/* This is the message area where body of message is typed */
+textarea {
+  width: 30%;
+  height: 12vh;
+  font-size: 18px;
+}
+
+
+/* name and email input boxes on contact form */
+input[type=text] {
+  width: 30%;
+  height: 4vh;
+  font-size: 18px;
+  
+}
+
+/* submit button styling */
+input[type=submit] {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F7A81B;
+  border: none;
+  /* border: 2px solid #f7e7ce; */
+  color: #005DAA;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  opacity: 100%;
+  border-radius: 7px;
+  width: 20%;
+  padding: 8px;
+  /* padding:5px 15px; 
+  background:#ccc; 
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;  */
+}
+
+
+
+/* textarea {
+  width: 50%;
+  height: 10vh;
+} */
+
+
+
 
 
 
