@@ -8,8 +8,10 @@ const ContactUs = () => {
     return (
         <div>
             <Navbar />
+            <div className="contactusphoto">
+                {/* <h1>CONTACT US</h1> */}
+            </div>
             <a href= '/ContactUs'></a> 
-            <h1>Contact Us</h1>
             <NameForm />
             <Footer />
         </div>
@@ -53,8 +55,14 @@ class NameForm extends React.Component {
       return (
   
         <div classname="form">
-
+          <h1>CONTACT US</h1>
+          <h3>Please use the form below to contact us. 
+            <br></br>
+            A member of the FORaMEAL team will respond as soon as possible.
+        </h3>
           <form onSubmit={this.handleSubmit}>
+          <input type="hidden" name="form-name" value="contact" />
+
             <label>
               Your name:
               <br></br>

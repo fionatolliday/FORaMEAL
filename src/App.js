@@ -3,6 +3,7 @@ import './App.css';
 import Home from './Home';
 import WhatWeDo from './WhatWeDo';
 import GetInvolved from './GetInvolved';
+import CorpInvolvement from './CorpInvolvement'
 import ContactUs from './ContactUs';
 import ErrorPage from './ErrorPage';
 
@@ -17,6 +18,8 @@ class App extends Component {
       return <WhatWeDo />
     } else if (path === '/GetInvolved') {
       return <GetInvolved />
+    } else if (path === '/CorpInvolvement') {
+      return <CorpInvolvement />
     } else if (path === '/ContactUs') {
       return <ContactUs />
     } else {

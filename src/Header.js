@@ -1,15 +1,18 @@
 import React from 'react';
+import image from './assets/forameal-whiteonblack.png'
 
 const Header = () => {
     return (
-        <div className='header'>
+        <div className='header-logo'>
             <header>
-                <h1>FORaMEAL</h1>
+                <img src={image} alt="logo">
+                </img>
             </header>
         </div>
 
     )
 }
+
 
 
 export default Header;

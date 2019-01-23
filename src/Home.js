@@ -11,8 +11,7 @@ const Home = () => {
     return ( 
         <div>
             <Navbar />
-            <Header />
-            {/* <h1>FORaMEAL</h1> */}
+            <Header />            
             <BuildBody />
             <Footer />
         </div>
