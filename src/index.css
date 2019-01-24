@@ -6,7 +6,6 @@ body {
   height: 100vh;
   /* color: #646464; */
   color: #58585A;
-
 }
 
 h1 {
@@ -19,9 +18,15 @@ h3 {
   margin: 2% auto;
   }
 
+  .header-logo {
+    display: flex;
+    height: 8vh;
+    padding: 4px;
+    flex-direction: row;
+    justify-content: center;
+    }
 
 .header-logo img{
-display: flex;
 height: 8vh;
 padding: 4px;
 flex-direction: row;
@@ -41,7 +46,13 @@ justify-content: center;
   /* background-color: aqua;   */
   background-attachment: scroll;
   background-position: center;
+  margin: 15px 10px;
 }
+
+/* img {
+  height: 7vh;
+  width: 45vh;
+} */
 
 .driving-force {
   background-color: white;
@@ -367,7 +378,7 @@ footer {
   flex-direction: wrap;
   justify-content: center;
   /* background-color: black; */
-  position: absolute;
+  position: relative;
   height: 10vh;
   width: 100vw;
   bottom: 0;

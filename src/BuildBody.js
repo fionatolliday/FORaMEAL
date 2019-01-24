@@ -1,4 +1,5 @@
 import React from 'react';
+import image from './assets/forameal-whiteonblack.png'
 
 
 
@@ -6,9 +7,8 @@ const BuildBody = () => {
 
     return (
         <div className='container'>
-            <div className='donate-button'>
-                <button><strong>GET INVOLVED</strong></button>
-            </div>
+            {/* <img src={image}>
+            </img> */}
         </div>
     )
   }
