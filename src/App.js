@@ -12,6 +12,7 @@ import ErrorPage from './ErrorPage';
 class App extends Component {
   render() {
     const path = window.location.pathname;
+    console.log(path)
     if (path === '/') {
       return <Home />
     } else if (path === '/WhatWeDo') {
