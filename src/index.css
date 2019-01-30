@@ -9,12 +9,18 @@ body {
 }
 
 h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 30%;
   margin: 2% auto;
   color: #005DAA;
   }
 
 h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 70%;
   margin: 2% auto;
   }
@@ -110,11 +116,6 @@ margin: 2% auto;
   background-position: center;
 }
 
-.get-involved h3 {
-  width: 70%;
-  margin: 2% auto;
-  }
-
 .get-involved h2 {
   width: 70%;
   margin: 2% auto;
@@ -140,7 +141,7 @@ text-align: center;
   background-color: transparent;
   width: auto;
   height: 200px;
-  border: 5px solid grey;
+  /* border: 5px solid grey; */
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -166,6 +167,7 @@ text-align: center;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  margin: 0 0 0 16px;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -180,6 +182,7 @@ text-align: center;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  margin: 0 0 0 16px;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -194,6 +197,7 @@ text-align: center;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  margin: 0 0 0 16px;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -208,6 +212,7 @@ text-align: center;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  margin: 0 0 0 16px;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -232,6 +237,7 @@ text-align: center;
   align-items: center;
   background-color: #005DAA; 
   color: white;
+  padding: 6px;
   
 }
 

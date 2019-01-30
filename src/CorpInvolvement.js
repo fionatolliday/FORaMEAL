@@ -19,7 +19,7 @@ const CorpInvolvement = () => {
                         <br></br>
                         They are fun, social and very satisfying for corporate participants as the raw materials are quickly and efficiently converted into thousands of packed meals for displaced families in our geographic region. 
                     </h3>
-                    <br></br>
+                </div>
                     
                     <h3>                              
                         There are many ways that your organisation can participate in the FORaMEAL program:
@@ -29,25 +29,25 @@ const CorpInvolvement = () => {
                         <div class="flip-card-inner-1">
                             <div class="flip-card-front">
                                 <p>
-                                Arrange a meal-packing event
+                                <strong> ARRANGE A MEAL PACKING EVENT</strong>
                                 </p>
                             </div>
                             <div class="flip-card-back">
                                 <p> Get your collegues together and help us create a team of up to 60 volunteers all working to create meal packs for those in need.
                                 <br></br>
-                                This is a great investment in relationship building between and within work-groups.
+                                
                                 Events can be structured for developing team-building, leadership and staff training.  
                                 
                                 {/* This is also an opportunity for client engagement. */}
                                 </p>
                             </div>
                         </div>
-                       
+                
 
                         <div class="flip-card-inner-2">
                             <div class="flip-card-front">
                                 <p>
-                                    Make a donation to help us buy raw materials.  
+                                    <strong>FINANCIAL DONATION</strong>
                                 </p>
                             </div>
 
@@ -61,7 +61,7 @@ const CorpInvolvement = () => {
                         <div class="flip-card-inner-3">
                             <div class="flip-card-front">
                                 <p> 
-                                Provide pro-bono services to assist with the running of FORaMEAL.
+                                <strong>PROVIDE PRO BONO SERVICES</strong>
                                 </p>
                             </div>
 
@@ -75,7 +75,7 @@ const CorpInvolvement = () => {
                         <div class="flip-card-inner-4">
                             <div class="flip-card-front">
                                 <p>
-                                Pay an “Event Fee”.  
+                                <strong>PAY AN "EVENT FEE"</strong>
                                 </p>
                             </div>
 
@@ -89,7 +89,7 @@ const CorpInvolvement = () => {
                         <div class="flip-card-inner-5">
                             <div class="flip-card-front">
                                 <p> 
-                                Become a Corporate Partner.  
+                                <strong>BECOME A CORPORATE PARTNER</strong>
                                 </p>
                             </div>
 
@@ -101,7 +101,6 @@ const CorpInvolvement = () => {
                         </div>
                     </div>
                     
-                </div>
             <Footer />
 
         </div>
