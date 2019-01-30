@@ -11,6 +11,7 @@ body {
 h1 {
   width: 30%;
   margin: 2% auto;
+  color: #005DAA;
   }
 
 h3 {
@@ -109,6 +110,9 @@ margin: 2% auto;
   background-position: center;
 }
 
+
+
+
 .get-involved h3 {
   width: 70%;
   margin: 2% auto;
@@ -131,9 +135,8 @@ color: black;
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 
 .get-involved-flip-cards {
-  display: inline-flex; 
-  justify-content: space-between;
-  align-content: center;
+  display: flex; 
+  justify-content: center;
   align-items: center;
   /* flex-wrap: wrap; */
   margin: 6px;

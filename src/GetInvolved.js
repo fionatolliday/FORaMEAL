@@ -16,9 +16,9 @@ const GetInvolved = () => {
                     <h3> 
                     Click to see how you can assist with FORaMEAL's disaster relief efforts.
                     </h3>
-                    
-
-                    <div className="get-involved-flip-cards">
+                <div 
+                
+                className="get-involved-flip-cards">
                         <div class="flip-card-inner-1">
                             <div class="flip-card-front">
                                 <p>
