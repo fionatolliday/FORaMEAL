@@ -4,8 +4,8 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  /* color: #646464; */
   color: #58585A;
+
 }
 
 h1 {
@@ -18,13 +18,13 @@ h3 {
   margin: 2% auto;
   }
 
-  .header-logo {
-    display: flex;
-    height: 8vh;
-    padding: 4px;
-    flex-direction: row;
-    justify-content: center;
-    }
+.header-logo {
+  display: flex;
+  height: 8vh;
+  padding: 4px;
+  flex-direction: row;
+  justify-content: center;
+  }
 
 .header-logo img{
 height: 8vh;
@@ -49,22 +49,7 @@ justify-content: center;
   margin: 15px 10px;
 }
 
-/* img {
-  height: 7vh;
-  width: 45vh;
-} */
-
-.driving-force {
-  background-color: white;
-  opacity: 0.8;
-  color: #58585A;
-  margin: 25%;
-  border-radius: 10px;
-  font-size: 20px;
-  text-align: center;
-}
-
-.donate-button button {
+/* .donate-button button {
  font-family: 'Open Sans', sans-serif;
  background-color: #F7A81B;
  border: none;
@@ -79,21 +64,14 @@ justify-content: center;
  border-radius: 7px;
  width: 220px;
  padding: 8px;
-}
+} */
 
- button:hover {
+ /* button:hover {
   background-color: #FBC533;
   color: #0077DA;
   opacity: 100%;
-}
+} */
 
-.donate-chaser {
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  position: absolute;
-  margin-top: 70px;
-}
 
 /* What we do page */
 .whatwedophoto{
@@ -110,10 +88,6 @@ justify-content: center;
   background-position: center;
 }
 
-
-
-
-
 .What-We-Do p {
 width: 70%;
 margin: 2% auto;
@@ -122,6 +96,7 @@ margin: 2% auto;
 /* Get Involved page */
 .getinvolvedphoto{
   display: flex;
+  /* flex-flow: row wrap; */ 
   flex-direction: wrap;
   justify-content: center;
   align-items: center;
@@ -139,31 +114,38 @@ margin: 2% auto;
   margin: 2% auto;
   }
 
-  .get-involved h2 {
-    width: 70%;
-    margin: 2% auto;
-    text-align: center;
-    }
+.get-involved h2 {
+  width: 70%;
+  margin: 2% auto;
+  text-align: center;
+  }
 
 .get-involved p {
 width: 70%;
 margin: 2% auto;
 text-align: center;
+color: black;
 }
 
 /* flip card trial */
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+
 .get-involved-flip-cards {
+  display: inline-flex; 
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
   margin: 6px;
   background-color: transparent;
-  width: 300px;
+  width: 800px;
   height: 200px;
   border: 1px solid #f1f1f1;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
 /* This container is needed to position the front and back side */
-.flip-card-inner {
+.flip-card-inner-1 {
   position: relative;
   width: 100%;
   height: 100%;
@@ -173,9 +155,66 @@ text-align: center;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
-.get-involved-flip-cards:hover .flip-card-inner {
+/* .get-involved-flip-cards:hover */ .flip-card-inner-1:hover {
   transform: rotateY(180deg);
 }
+
+.flip-card-inner-2{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+/* .get-involved-flip-cards:hover */ .flip-card-inner-2:hover {
+  transform: rotateY(180deg);
+}
+
+.flip-card-inner-3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+/* .get-involved-flip-cards:hover */ .flip-card-inner-3:hover {
+  transform: rotateY(180deg);
+}
+
+.flip-card-inner-4 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+/* .get-involved-flip-cards:hover */ .flip-card-inner-4:hover {
+  transform: rotateY(180deg);
+}
+
+.flip-card-inner-5 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+/* .get-involved-flip-cards:hover */ .flip-card-inner-5:hover {
+  transform: rotateY(180deg);
+}
+
 
 /* Position the front and back side */
 .flip-card-front, .flip-card-back {
@@ -187,57 +226,26 @@ text-align: center;
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #bbb;
-  color: black;
+  background-color: darkgrey; 
+  color: white;
 }
 
 /* Style the back side */
 .flip-card-back {
-  background-color: dodgerblue;
+  background-color: lightgrey;
   color: white;
   transform: rotateY(180deg);
 }
-
 /* flip card trial has ended */
 
 
-
-
-
-
-.get-involved-cards {
-  display: flex;
-  flex-flow: row wrap;
-}
-
-.card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  margin: 2vw;
-  width: 20vw;
-  display: flex;
-  flex-flow: row wrap;
-}
-
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-/* Add some padding inside the card container */
-.cardcontainer {
-  padding: 2px 16px;
-
-}
-
 /* corporate involvement page */
-.corpinvolvementphoto{
+.corpinvolvedphoto {
   display: flex;
   flex-direction: wrap;
   justify-content: center;
   align-items: center;
-  background-image: url("./assets/two_boys_phil.jpg");
+  background-image: url("./assets/packing_happy.jpeg");
   background-repeat: no-repeat;
   height: 25vh;
   background-size: cover;
@@ -246,106 +254,7 @@ text-align: center;
   background-position: center;
 }
 
-
-
-/* carousel test */
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-
-
+/* navigation bar */
 nav {
   font-family: 'Open Sans', sans-serif;
   text-align: right;
@@ -357,8 +266,6 @@ nav {
   border-width: 5px;
   border-bottom-color: #005DAA;
   /* border-bottom: 5px green; */
-  
-
 }
 
 nav a {
@@ -373,29 +280,31 @@ nav a:hover {
   text-shadow: 1px 1px;
 }
 
+
+/* footer */
 footer {
   display: flex;
-  flex-direction: wrap;
   justify-content: center;
-  /* background-color: black; */
-  position: relative;
+  align-items: center;
+  /* position: absolute; */
   height: 10vh;
   width: 100vw;
   bottom: 0;
-  /* align-items: center;
-  grid-template-areas: 
-  ". image ." */
-
 }
 
 footer img {
-grid-area: image;
+justify-content: center;
 height:5em;
 width: 15em;
 margin: 2px auto 0 auto;
-/* align-self: center; */
-
 }
+
+.footer-align-image {
+  display: flex;
+
+  }
+
+
 /* contact us page */
 .contactusphoto{
   display: flex;
@@ -422,10 +331,9 @@ display: block;
 text-align: center;
 font-size: 18px;
 font-family: 'Open Sans', sans-serif;
-
 }
 
-/* This is the message area where body of message is typed */
+/* This is the message area where body of message is typed into the form*/
 textarea {
   width: 30%;
   height: 12vh;
@@ -465,12 +373,6 @@ input[type=submit] {
   border-radius: 5px;  */
 }
 
-
-
-/* textarea {
-  width: 50%;
-  height: 10vh;
-} */
 
 
 
