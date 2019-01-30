@@ -16,13 +16,15 @@ const GetInvolved = () => {
                     <h3> 
                     Click to see how you can assist with FORaMEAL's disaster relief efforts.
                     </h3>
-                <div 
-                
-                className="get-involved-flip-cards">
+                </div>
+
+                    <div className="get-involved-flip-cards">
                         <div class="flip-card-inner-1">
                             <div class="flip-card-front">
                                 <p>
-                                Food packing: it's easy, fun and very social.
+                                <strong>FOOD PACKING: </strong>
+                                <br></br>
+                                it's easy, fun and very social.
                                 </p>
                             </div>
 
@@ -38,13 +40,13 @@ const GetInvolved = () => {
 
                         <div class="flip-card-inner-2">
                             <div class="flip-card-front">
-                                <p> Donate funds
+                                <p> <strong>DONATE FUNDS</strong>
                                 </p>
                             </div>
 
                             <div class="flip-card-back">
                                 <p>
-                                Another way to get involved is to contribute to the cost of the meals.  A $10 donation will buy enough materials to feed 40 people one meal each.
+                                A $10 donation will buy enough materials to feed 40 people one meal each.
                                 </p>
                             </div>
                         </div>
@@ -53,7 +55,9 @@ const GetInvolved = () => {
                         <div class="flip-card-inner-3">
                             <div class="flip-card-front">
                                 <p> 
-                                Volunteer your professional skills to help grow this organisation.
+                                <strong>
+                                    VOLUNTEER YOUR PROFESSIONAL SKILLS
+                                </strong>
                                 </p>
                             </div>
 
@@ -68,19 +72,20 @@ const GetInvolved = () => {
                         <div class="flip-card-inner-4">
                             <div class="flip-card-front">
                                 <p> 
-                                Enjoy team bonding with your colleagues.
+                                <strong>CORPORATE TEAM BONDING</strong>
                                 </p>
                             </div>
 
                             <div class="flip-card-back">
                                 <p>
-                                Promote the FORaMEAL project to your employer and arrange a ‘Volunteer Day’ (see Corporate Involvement tab)
+                                Promote the FORaMEAL project to your employer, arrange a ‘Volunteer Day’ and enjoy team bonding with your colleagues
+                                (see Corporate Involvement page)
                                 </p>
                             </div>
                         </div>
                     </div>
                     
-                </div>
+                
             <Footer />
 
         </div>
