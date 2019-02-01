@@ -18,13 +18,15 @@ const GetInvolved = () => {
                     </h3>
                 </div>
 
+                <div className="flip-container">
+
                     <div className="get-involved-flip-cards">
                         <div class="flip-card-inner-1">
                             <div class="flip-card-front">
                                 <p>
                                 <strong>FOOD PACKING: </strong>
                                 <br></br>
-                                it's easy, fun and very social.
+                                It's easy, fun and very social.
                                 </p>
                             </div>
 
@@ -36,8 +38,9 @@ const GetInvolved = () => {
                                 </p>
                             </div>
                         </div>
-                        <br></br>
+                    </div>
 
+                    <div className="get-involved-flip-cards">
                         <div class="flip-card-inner-2">
                             <div class="flip-card-front">
                                 <p> <strong>DONATE FUNDS</strong>
@@ -50,14 +53,13 @@ const GetInvolved = () => {
                                 </p>
                             </div>
                         </div>
-                        <br></br>
+                    </div>
 
+                    <div className="get-involved-flip-cards">
                         <div class="flip-card-inner-3">
                             <div class="flip-card-front">
                                 <p> 
-                                <strong>
-                                    VOLUNTEER YOUR PROFESSIONAL SKILLS
-                                </strong>
+                                <strong> VOLUNTEER YOUR PROFESSIONAL SKILLS </strong>
                                 </p>
                             </div>
 
@@ -67,8 +69,9 @@ const GetInvolved = () => {
                                 </p>
                             </div>
                         </div>
-                        <br></br>
+                    </div>
 
+                    <div className="get-involved-flip-cards">   
                         <div class="flip-card-inner-4">
                             <div class="flip-card-front">
                                 <p> 
@@ -84,7 +87,7 @@ const GetInvolved = () => {
                             </div>
                         </div>
                     </div>
-                    
+                </div>
                 
             <Footer />
 

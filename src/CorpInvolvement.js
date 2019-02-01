@@ -25,6 +25,8 @@ const CorpInvolvement = () => {
                         There are many ways that your organisation can participate in the FORaMEAL program:
                     </h3>
 
+                <div className="flip-container">
+
                     <div className="get-involved-flip-cards">
                         <div class="flip-card-inner-1">
                             <div class="flip-card-front">
@@ -42,8 +44,10 @@ const CorpInvolvement = () => {
                                 </p>
                             </div>
                         </div>
+                    </div>
+                    <br></br>
                 
-
+                    <div className="get-involved-flip-cards">
                         <div class="flip-card-inner-2">
                             <div class="flip-card-front">
                                 <p>
@@ -57,7 +61,10 @@ const CorpInvolvement = () => {
                                 </p>
                             </div>
                         </div>
+                    </div> 
+                    <br></br>   
 
+                    <div className="get-involved-flip-cards">
                         <div class="flip-card-inner-3">
                             <div class="flip-card-front">
                                 <p> 
@@ -71,7 +78,10 @@ const CorpInvolvement = () => {
                                 </p>
                             </div>
                         </div>
+                    </div>  
+                    <br></br>  
 
+                    <div className="get-involved-flip-cards">
                         <div class="flip-card-inner-4">
                             <div class="flip-card-front">
                                 <p>
@@ -85,7 +95,10 @@ const CorpInvolvement = () => {
                                 </p>
                             </div>
                         </div>
+                    </div>    
+                    <br></br>
 
+                    <div className="get-involved-flip-cards">
                         <div class="flip-card-inner-5">
                             <div class="flip-card-front">
                                 <p> 
@@ -100,7 +113,7 @@ const CorpInvolvement = () => {
                             </div>
                         </div>
                     </div>
-                    
+                </div>
             <Footer />
 
         </div>

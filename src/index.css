@@ -132,14 +132,21 @@ text-align: center;
 /* flip card trial */
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 
+.flip-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 .get-involved-flip-cards {
   display: flex; 
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   /* flex-wrap: wrap; */
-  margin: 6px;
+  margin: 4px;
   background-color: transparent;
-  width: auto;
+  width: 20%;
   height: 200px;
   /* border: 5px solid grey; */
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
@@ -167,7 +174,7 @@ text-align: center;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  margin: 0 0 0 16px;
+  /* margin: 0 0 0 16px; */
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -182,7 +189,7 @@ text-align: center;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  margin: 0 0 0 16px;
+  /* margin: 0 0 0 16px; */
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -197,7 +204,7 @@ text-align: center;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  margin: 0 0 0 16px;
+  /* margin: 0 0 0 16px; */
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -212,7 +219,7 @@ text-align: center;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  margin: 0 0 0 16px;
+  /* margin: 0 0 0 16px; */
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -228,7 +235,7 @@ text-align: center;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  
+  overflow: scroll;
 }
 
 /* Style the front side (fallback if image is missing) */
@@ -236,9 +243,7 @@ text-align: center;
   justify-content: center;
   align-items: center;
   background-color: #005DAA; 
-  color: white;
-  padding: 6px;
-  
+  color: white;  
 }
 
 /* Style the back side */
