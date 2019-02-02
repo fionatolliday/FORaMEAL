@@ -60,7 +60,7 @@ class NameForm extends React.Component {
             <br></br>
             A member of the FORaMEAL team will respond as soon as possible.
         </h3>
-          <form onSubmit={this.handleSubmit}>
+          <form name="contact" onSubmit={this.handleSubmit}>
           <input type="hidden" name="form-name" value="contact" />
 
             <label>
