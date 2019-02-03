@@ -132,13 +132,15 @@ text-align: center;
 
 a.button {
   align-self: flex-end;
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
+  /* -webkit-appearance: button;
+  -moz-appearance: button; */
+  /* appearance: button; */
   text-decoration: none;
   background-color: #F7A81B;
   color: #0077DA;
   width: 80%;
+  /* justify-content: center;
+  align-items: center; */
 }
 
 /* flip card trial */
@@ -172,7 +174,7 @@ a.button {
   height: 100%;
   text-align: center;
   justify-content: center;
-
+  align-items: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
@@ -247,6 +249,8 @@ a.button {
 
 /* Style the back side */
 .flip-card-back {
+  justify-content: center;
+  align-items: center;
   background-color: #0077DA;
   color: white;
   transform: rotateY(180deg);
