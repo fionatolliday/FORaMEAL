@@ -35,12 +35,10 @@ const CorpInvolvement = () => {
                                 </p>
                             </div>
                             <div class="flip-card-back">
-                                <p> Get your collegues together and help us create a team of up to 60 volunteers all working to create meal packs for those in need.
+                                <p> We need up to 60 volunteers at each event.
+                                    Get your colleagues together and help us create a team all working to create meal packs for those in need.
                                 <br></br>
-                                
-                                Events can be structured for developing team-building, leadership and staff training.  
-                                
-                                {/* This is also an opportunity for client engagement. */}
+                                    Join us for team-building and developing leadership skills.
                                 </p>
                             </div>
                         </div>
@@ -51,13 +49,15 @@ const CorpInvolvement = () => {
                         <div class="flip-card-inner-2">
                             <div class="flip-card-front">
                                 <p>
-                                    <strong>FINANCIAL DONATION</strong>
+                                    <strong>TAX DEDUCTABLE DONATION</strong>
                                 </p>
                             </div>
 
                             <div class="flip-card-back">
                                 <p>
-                                The FORaMEAL packs consist of rice, lentils, oats with added vitamins and minerals.  These materials need to be sourced commercially by Rotary.
+                                Provide a financial donation to help us pay for cereal, packaging and freight to Asia.
+                                <br></br>
+                                (Ask us for details on how to claim tax deduction)
                                 </p>
                             </div>
                         </div>
@@ -68,13 +68,13 @@ const CorpInvolvement = () => {
                         <div class="flip-card-inner-3">
                             <div class="flip-card-front">
                                 <p> 
-                                <strong>PROVIDE PRO BONO SERVICES</strong>
+                                <strong>DONATE SERVICES</strong>
                                 </p>
                             </div>
 
                             <div class="flip-card-back">
                                 <p>
-                                The FORaMEAL project could use help from the many creative and innovative service organisations.  We need help with marketing campaigns, web design, trucks, event management and much more.
+                                FORaMEAL needs help with marketing campaigns, web design, trucks, event management and much more.
                                 </p>
                             </div>
                         </div>
@@ -91,28 +91,15 @@ const CorpInvolvement = () => {
 
                             <div class="flip-card-back">
                                 <p>
-                                As well as the cost of raw materials, additional funds are required to pay for sea-freight and packaging.  The Rotary Club also has a charity fund with enables affiliated community projects to be carried out locally and overseas. (Note that funds are not used for administrative purposes as all Rotarians give their time voluntarily).
+                                Pay for an entire packing event. 
+                                <br></br>
+                                Each event costs $4,500 which only covers the cost of cereal and packaging.
                                 </p>
                             </div>
                         </div>
                     </div>    
                     <br></br>
 
-                    <div className="get-involved-flip-cards">
-                        <div class="flip-card-inner-5">
-                            <div class="flip-card-front">
-                                <p> 
-                                <strong>BECOME A CORPORATE PARTNER</strong>
-                                </p>
-                            </div>
-
-                            <div class="flip-card-back">
-                            <p>
-                            The FORaMEAL project can accommodate a wide range of in-kind and financial assistance, from one-off contributions to ongoing help.
-                            </p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             <Footer />
 

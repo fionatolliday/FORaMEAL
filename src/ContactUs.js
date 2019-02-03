@@ -18,6 +18,14 @@ const ContactUs = () => {
     )
 }
 
+// This is for the form to submit
+const encode = (data) => {
+  return Object.keys(data)
+      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+      .join("&");
+}
+
+
 
 class NameForm extends React.Component {
     constructor(props) {
@@ -47,6 +55,13 @@ class NameForm extends React.Component {
     }
   
     handleSubmit(event) {
+      // This is for the form to submit
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: encode({ "form-name": "contact", ...this.state })
+      })
+
       alert('Thank you. Your email has been submitted. ' + this.state.value);
       event.preventDefault();
     }
@@ -60,7 +75,7 @@ class NameForm extends React.Component {
             <br></br>
             A member of the FORaMEAL team will respond as soon as possible.
         </h3>
-          <form name="contact" onSubmit={this.handleSubmit}>
+          <form onSubmit={this.handleSubmit}>
           <input type="hidden" name="form-name" value="contact" />
 
             <label>
