@@ -60,7 +60,9 @@ const GetInvolved = () => {
                             </div>
                         </div>
                     </div>
+                </div>
 
+                <div className="flip-container">
                     <div className="get-involved-flip-cards">
                         <div class="flip-card-inner-3">
                             <div class="flip-card-front">
