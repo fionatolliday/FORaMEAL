@@ -12,6 +12,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   width: 30%;
   margin: 0% auto;
   color: #005DAA;
@@ -22,6 +23,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   width: 70%;
   margin: 2% auto;
   }
@@ -108,13 +110,11 @@ margin: 2% auto;
 .get-involved h2 {
   width: 70%;
   margin: 2% auto;
-  text-align: center;
   }
 
 .get-involved p {
 width: 70%;
 margin: 2% auto;
-text-align: center;
 }
 
 a.button {
@@ -147,7 +147,7 @@ a.button {
   justify-content: center;
   align-items: center;
   /* flex-wrap: wrap; */
-  margin: 20px;
+  margin: 0px 35px 35px 35px;
   background-color: transparent;
   height: 200px;
   /* border: 5px solid grey; */

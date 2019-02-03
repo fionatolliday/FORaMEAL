@@ -17,7 +17,7 @@ const CorpInvolvement = () => {
                     <h1> CORPORATE INVOLVEMENT </h1> 
                     
                     <h3> 
-                        FORaMEAL events have great appeal.
+                        FORaMEAL events are great.
                         <br></br>
                         They are fun, social and very satisfying for corporate participants as the raw materials are quickly and efficiently converted into thousands of packed meals for displaced families in our geographic region. 
                     </h3>

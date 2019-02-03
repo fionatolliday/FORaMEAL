@@ -17,7 +17,7 @@ const GetInvolved = () => {
                 <div className='get-involved'>    
                     <h1> GET INVOLVED</h1> 
                     <h3> 
-                    Click to see how you can assist with FORaMEAL's disaster relief efforts.
+                    Discover how you can assist with FORaMEAL's disaster relief efforts.
                     </h3>
                 </div>
 
