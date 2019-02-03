@@ -128,7 +128,17 @@ margin: 2% auto;
 width: 70%;
 margin: 2% auto;
 text-align: center;
+}
 
+a.button {
+  align-self: flex-end;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  background-color: #F7A81B;
+  color: #0077DA;
+  width: 80%;
 }
 
 /* flip card trial */
@@ -136,6 +146,7 @@ text-align: center;
 
 .flip-container{
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -155,10 +166,13 @@ text-align: center;
 
 /* This container is needed to position the front and back side */
 .flip-card-inner-1 {
+  display: flex;
   position: relative;
   /* width: 100%; */
   height: 100%;
   text-align: center;
+  justify-content: center;
+
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }

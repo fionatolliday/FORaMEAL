@@ -31,6 +31,7 @@ const GetInvolved = () => {
                                 <br></br>
                                 It's easy, fun and very social.
                                 </p>
+                                
                             </div>
 
                             <div class="flip-card-back">
@@ -39,6 +40,8 @@ const GetInvolved = () => {
                                 <br></br>
                                 Yes! 50 volunteers together can pack 18,000 meals in two hours!!
                                 </p>
+                                <br></br>
+                                <a href="https://www.meetup.com/en-AU/FORaMEAL-Emergency-Food-Relief-Packing-Volunteers/" class="button"> Click to book</a>
                             </div>
                         </div>
                     </div>
