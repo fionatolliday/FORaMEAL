@@ -91,6 +91,12 @@ width: 70%;
 margin: 2% auto;
 }
 
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Get Involved page */
 .getinvolvedphoto{
   display: flex;

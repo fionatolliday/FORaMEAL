@@ -1,9 +1,24 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Navbar from './Navbar'
 import Footer from './Footer'
+import ReactPlayer from 'react-player';
 import logoimage from './assets/forameal-blackonwhite.png'
 
-
+class Video extends Component {
+    render() {
+      return (
+        <div className="video">
+          <ReactPlayer
+            url='https://youtu.be/vhNgjd6yG8I'
+            className='react-player'
+            playing
+            width='50%'
+            height='100%'
+          />
+        </div>
+      );
+    }
+  }
 
 const WhatWeDo = () => {
     return (
@@ -30,6 +45,7 @@ const WhatWeDo = () => {
                     FORaMEAL is key international Rotary project. Its supply chain is run solely by volunteers with no additional administration costs.
                     </p>
                 </div>
+            <Video />
             <Footer />
         </div>
     )
