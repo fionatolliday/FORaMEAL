@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar'
 import Footer from './Footer'
+import logoimage from './assets/forameal-blackonwhite.png'
 
 
 const CorpInvolvement = () => {
@@ -8,6 +9,7 @@ const CorpInvolvement = () => {
         <div> 
             <Navbar />
             <div className="corpinvolvedphoto">
+            <img src={logoimage} id="logo" alt="Logo" />
             </div>
             
             <a href= '/Get Involved'></a>   

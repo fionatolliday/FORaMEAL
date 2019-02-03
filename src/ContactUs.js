@@ -1,6 +1,8 @@
 import React from 'react';
 import Navbar from './Navbar'
 import Footer from './Footer'
+import logoimage from './assets/forameal-blackonwhite.png'
+
 
 
 
@@ -9,7 +11,7 @@ const ContactUs = () => {
         <div>
             <Navbar />
             <div className="contactusphoto">
-                {/* <h1>CONTACT US</h1> */}
+              <img src={logoimage} id="logo" alt="Logo" />
             </div>
             <a href= '/ContactUs'></a> 
             <NameForm />

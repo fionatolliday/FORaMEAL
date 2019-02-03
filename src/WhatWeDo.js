@@ -1,6 +1,8 @@
 import React from 'react';
 import Navbar from './Navbar'
 import Footer from './Footer'
+import logoimage from './assets/forameal-blackonwhite.png'
+
 
 
 const WhatWeDo = () => {
@@ -9,7 +11,7 @@ const WhatWeDo = () => {
             <Navbar />
             
             <div className="whatwedophoto">
-                {/* <h1>WHAT WE DO</h1> */}
+                <img src={logoimage} id="logo" alt="Logo" />
             </div>
             <a href= '/WhatWeDo'></a>   
                 <div className='What-We-Do'>     

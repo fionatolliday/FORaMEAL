@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
-import image from './assets/forameal-blackonwhite.png'
+import logoimage from './assets/forameal-blackonwhite.png'
 
 
 
@@ -10,7 +10,7 @@ const GetInvolved = () => {
         <div> 
             <Navbar />
             <div className="getinvolvedphoto">
-        
+                <img src={logoimage} id="logo" alt="Logo" />
             </div>
             
             <a href= '/Get Involved'></a>   

@@ -40,6 +40,16 @@ flex-direction: row;
 justify-content: center;
 }
 
+/* opaque logo which appears on all but homepage.  It sits within the photo container on each page. */
+#logo {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 50px;
+  opacity: 0.5;
+  align-items: flex-start;
+}
+
  /* Holds the background image on the homepage */
 .container {
   display: flex;
@@ -56,37 +66,14 @@ justify-content: center;
   margin: 15px 10px;
 }
 
-/* .donate-button button {
- font-family: 'Open Sans', sans-serif;
- background-color: #F7A81B;
- border: none;
- border: 2px solid #f7e7ce; 
- color: #005DAA;
- padding: 15px 32px;
- text-align: center;
- text-decoration: none;
- display: inline-block;
- font-size: 40px;
- opacity: 100%;
- border-radius: 7px;
- width: 220px;
- padding: 8px;
-} */
-
- /* button:hover {
-  background-color: #FBC533;
-  color: #0077DA;
-  opacity: 100%;
-} */
-
 
 /* What we do page */
 .whatwedophoto{
   position: relative;
   display: flex;
   flex-direction: wrap;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   background-image: url("./assets/two_boys_phil.jpg");
   background-repeat: no-repeat;
   height: 25vh;
@@ -95,7 +82,6 @@ justify-content: center;
   background-attachment: scroll;
   background-position: center;
 }
-
 
 .What-We-Do p {
 width: 70%;
@@ -107,8 +93,8 @@ margin: 2% auto;
   display: flex;
   /* flex-flow: row wrap; */ 
   flex-direction: wrap;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   background-image: url("./assets/two_boys_phil.jpg");
   background-repeat: no-repeat;
   height: 25vh;
@@ -262,8 +248,8 @@ a.button {
 .corpinvolvedphoto {
   display: flex;
   flex-direction: wrap;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   background-image: url("./assets/packing_happy.jpeg");
   background-repeat: no-repeat;
   height: 25vh;
@@ -334,8 +320,8 @@ margin: 2px auto 0 auto;
 .contactusphoto{
   display: flex;
   flex-direction: wrap;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   background-image: url("./assets/two_boys_phil.jpg");
   background-repeat: no-repeat;
   height: 25vh;
