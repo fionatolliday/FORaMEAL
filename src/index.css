@@ -245,7 +245,7 @@ a.button {
 .flip-card-back {
   overflow: scroll;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   background-color: #0077DA;
   color: white;
   transform: rotateY(180deg);
