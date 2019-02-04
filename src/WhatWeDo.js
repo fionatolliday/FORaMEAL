@@ -1,24 +1,24 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar'
 import Footer from './Footer'
-// import ReactPlayer from 'react-player';
+import ReactPlayer from 'react-player';
 import logoimage from './assets/forameal-blackonwhite.png'
 
-// class Video extends Component {
-//     render() {
-//       return (
-//         <div className="video">
-//           <ReactPlayer
-//             url='https://youtu.be/vhNgjd6yG8I'
-//             className='react-player'
-//             playing
-//             width='50%'
-//             height='100%'
-//           />
-//         </div>
-//       );
-//     }
-//   }
+class Video extends Component {
+    render() {
+      return (
+        <div className="video">
+          <ReactPlayer
+            url='https://youtu.be/vhNgjd6yG8I'
+            className='react-player'
+            playing
+            width='50%'
+            height='100%'
+          />
+        </div>
+      );
+    }
+  }
 
 const WhatWeDo = () => {
     return (
@@ -53,6 +53,7 @@ const WhatWeDo = () => {
                     </div>
 
                 </div>
+            <ReactPlayer />
             <Footer />
         </div>
     )
