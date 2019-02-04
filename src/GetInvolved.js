@@ -92,8 +92,8 @@ const GetInvolved = () => {
 
                             <div class="flip-card-back">
                                 <p>
-                                Promote FORaMEAL to your employer, arrange a ‘Volunteer Day’ and enjoy team bonding with your colleagues.
-                                (see Corporate Involvement page)
+                                Promote FORaMEAL to your employer, book a ‘Volunteer Day’ and enjoy team bonding with your colleagues.
+                                (see Corp Involvement page)
                                 </p>
                             </div>
                         </div>
