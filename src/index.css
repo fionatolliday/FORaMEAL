@@ -124,7 +124,7 @@ margin: 2% auto;
 }
 
 a.button {
-  align-self: flex-end;
+  /* align-self: flex-end; */
   /* -webkit-appearance: button;
   -moz-appearance: button; */
   /* appearance: button; */
@@ -243,6 +243,7 @@ a.button {
 
 /* Style the back side */
 .flip-card-back {
+  overflow: scroll;
   justify-content: center;
   align-items: center;
   background-color: #0077DA;
