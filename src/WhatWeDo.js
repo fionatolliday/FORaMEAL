@@ -44,6 +44,7 @@ const WhatWeDo = () => {
                     <br></br>
                     FORaMEAL is key international Rotary project. Its supply chain is run solely by volunteers with no additional administration costs.
                     </p>
+                    <Video />
                 </div>
             <Video />
             <Footer />
