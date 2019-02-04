@@ -37,8 +37,8 @@ const CorpInvolvement = () => {
                                 </p>
                             </div>
                             <div class="flip-card-back">
-                                <p> We need up to 60 volunteers at each event.
-                                    Get your colleagues together and help us create a team all working to create meal packs for those in need.
+                                <p>
+                                    Gather up to 60 colleagues so together and help us create a team all working to create meal packs for those in need.
                                 <br></br>
                                     Join us for team-building and developing leadership skills.
                                 </p>
