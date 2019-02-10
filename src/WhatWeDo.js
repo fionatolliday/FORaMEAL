@@ -14,6 +14,7 @@ class Video extends Component {
             playing
             width='50%'
             height='100%'
+            muted='true'
           />
         </div>
       );
