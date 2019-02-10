@@ -24,7 +24,7 @@ const CorpInvolvement = () => {
                 </div>
                     
                     <h3>                              
-                        There are many ways that your organisation can participate in the FORaMEAL program:
+                        Flip the cards to see the many ways that your organisation can participate in the FORaMEAL program:
                     </h3>
 
                 <div className="flip-container">
