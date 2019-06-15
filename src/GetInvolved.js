@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import logoimage from './assets/forameal-blackonwhite.png'
-import gofundmeimage from './assets/gofundme-seeklogo.com.eps'
+import gofundmeimage from './assets/gofundme.png'
 
 
 
