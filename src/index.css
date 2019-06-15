@@ -254,7 +254,11 @@ a.button {
   transform: rotateY(180deg);
 }
 /* flip card trial has ended */
-
+#gofundme{
+  width: 8em;
+  height: 6em;
+  /* align-self: flex-end; */
+}
 
 /* corporate involvement page */
 .corpinvolvedphoto {
@@ -328,8 +332,8 @@ margin: 2px auto 0 auto;
 }
 
 #facebook{
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   align-self: flex-end;
 }
 
