@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './assets/logo-rotarycanterbury.png'
 import meetuplogo from './assets/meetup.svg'
+import facebooklogo from './assets/f_logo_RGB-Blue_58.png'
 
 const Footer = () => {
     return (
@@ -14,7 +15,7 @@ const Footer = () => {
                     </a>
                     
                     < a href="https://www.facebook.com/FORaMEAL/">
-                    <i class="fab fa-facebook-square"></i>
+                    <img src={facebooklogo} alt="Facebook logo" />
                     </a>
             </footer>
 
