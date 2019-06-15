@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import logoimage from './assets/forameal-blackonwhite.png'
+import gofundmeimage from './assets/gofundme-seeklogo.com.eps'
 
 
 
@@ -61,7 +62,10 @@ const GetInvolved = () => {
                                 A $10 donation will buy enough materials to feed 40 people one meal each.
                                 <br></br>
                                 <br></br>
-                                <a href="https://www.gofundme.com/forameal-emergency-food-relief" class="button"> Donate at GoFundMe</a>
+                                < a href="https://www.gofundme.com/">
+                                <img src={gofundmeimage} id="gofundme" alt="GoFundMe logo" />
+                                </a> 
+                                {/* <a href="https://www.gofundme.com/forameal-emergency-food-relief" class="button"> Donate at GoFundMe</a> */}
                                 </p>
                             </div>
                         </div>
