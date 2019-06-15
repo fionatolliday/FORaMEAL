@@ -15,7 +15,7 @@ const Footer = () => {
                     </a>
                     
                     < a href="https://www.facebook.com/FORaMEAL/">
-                    <img src={facebooklogo} alt="Facebook logo" />
+                    <img src={facebooklogo} id="facebook" alt="Facebook logo" />
                     </a>
             </footer>
 

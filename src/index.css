@@ -327,6 +327,12 @@ margin: 2px auto 0 auto;
   align-self: flex-end;
 }
 
+#facebook{
+  width: 8em;
+  height: 8em;
+  align-self: flex-end;
+}
+
 
 /* contact us page */
 .contactusphoto{
