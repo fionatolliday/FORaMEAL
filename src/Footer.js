@@ -12,6 +12,9 @@ const Footer = () => {
                     <a href="https://www.meetup.com/en-AU/FORaMEAL-Emergency-Food-Relief-Packing-Volunteers/">
                         <img src={meetuplogo} id="meetup" alt="Meetup" />
                     </a>
+                    
+                    
+                    <i class="fab fa-facebook-square"></i>
             </footer>
 
     )
