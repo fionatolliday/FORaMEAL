@@ -62,10 +62,9 @@ const GetInvolved = () => {
                                 A $10 donation will buy enough materials to feed 40 people one meal each.
                                 <br></br>
                                 <br></br>
-                                < a href="https://www.gofundme.com/">
+                                < a href="https://www.gofundme.com/forameal-emergency-food-relief/">
                                 <img src={gofundmeimage} id="gofundme" alt="GoFundMe logo" />
                                 </a> 
-                                {/* <a href="https://www.gofundme.com/forameal-emergency-food-relief" class="button"> Donate at GoFundMe</a> */}
                                 </p>
                             </div>
                         </div>
