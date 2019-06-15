@@ -13,8 +13,9 @@ const Footer = () => {
                         <img src={meetuplogo} id="meetup" alt="Meetup" />
                     </a>
                     
-                    
+                    < a href="https://www.facebook.com/FORaMEAL/">
                     <i class="fab fa-facebook-square"></i>
+                    </a>
             </footer>
 
     )
