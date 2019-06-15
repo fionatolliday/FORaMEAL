@@ -59,6 +59,9 @@ const GetInvolved = () => {
                             <div class="flip-card-back">
                                 <p>
                                 A $10 donation will buy enough materials to feed 40 people one meal each.
+                                <br></br>
+                                <br></br>
+                                <a href="https://www.gofundme.com/forameal-emergency-food-relief" class="button"> Donate at GoFundMe</a>
                                 </p>
                             </div>
                         </div>
