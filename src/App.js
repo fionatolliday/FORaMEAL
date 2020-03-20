@@ -6,6 +6,7 @@ import GetInvolved from './GetInvolved';
 import CorpInvolvement from './CorpInvolvement'
 import ContactUs from './ContactUs';
 import ErrorPage from './ErrorPage';
+import Testimonials from './Testimonials';
 
 
 
@@ -21,6 +22,8 @@ class App extends Component {
       return <GetInvolved />
     } else if (path === '/CorpInvolvement') {
       return <CorpInvolvement />
+    } else if (path === '/Testimonials') {
+      return <Testimonials />
     } else if (path === '/ContactUs') {
       return <ContactUs />
     } else {
@@ -28,16 +31,6 @@ class App extends Component {
     }
   }
 }
-
-// class App extends Component {
-//   render() {
-//     return (
-//       <div className="App">
-
-//       </div>
-//     );
-//   }
-// }
 
 
 

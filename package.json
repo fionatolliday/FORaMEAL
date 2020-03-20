@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "body-parser": "^1.18.3",
-    "mongoose": "^5.4.0",
+    "mongoose": "^5.9.5",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-player": "^1.9.3",

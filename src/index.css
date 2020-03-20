@@ -275,6 +275,43 @@ a.button {
   background-position: center;
 }
 
+/* Testimonials page */
+.testimonials{
+  position: relative;
+  display: flex;
+  flex-direction: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-image: url("./assets/lady-with-baby.jpg");
+  background-repeat: no-repeat;
+  height: 32vh;
+  background-size: cover;
+  /* background-color: aqua;   */
+  background-attachment: scroll;
+  background-position: center;
+}
+
+.testimonials h2 {
+  width: 70%;
+  margin: 2% auto;
+  }
+
+.Testimonials p {
+width: 70%;
+margin: 2% auto;
+}
+.Testimonials i {
+  width: 70%;
+  margin: 2% auto;
+  }
+
+.video  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 /* navigation bar */
 nav {
   font-family: 'Open Sans', sans-serif;

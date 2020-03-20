@@ -22,6 +22,7 @@ class Video extends Component {
     }
   }
 
+
 const WhatWeDo = () => {
     return (
         <div>
